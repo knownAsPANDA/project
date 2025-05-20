@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бүртгүүлэх - Pizza Hut Mongolia</title>
+    <link rel="stylesheet" href="register-styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="register-page"> 
+    <header class="register-header"> 
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://d2l1qb2xg9gi7w.cloudfront.net/mn/web-static-images/pizzahut_logo.png" alt="Pizza Hut Logo">
+            </div>
+        </div>
+    </header>
+
+    <main class="register-main"> 
+        <div class="back-link-container">
+             <a href="index.html" class="back-link">&larr; Буцах</a>
+        </div>
+       
+        <div class="register-form-container"> 
+            <h2>Бүртгүүлэх Пицца Хат</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Овог, Нэр <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Овог, Нэрээ бичнэ үү" required>
+                </div>
+                <div class="form-group phone-group">
+                    <label for="phone">Утасны дугаар <span class="required">*</span></label>
+                    <div class="phone-input-wrapper">
+                        <span class="phone-prefix">+976</span>
+                        <input type="tel" id="phone" name="phone" placeholder="Утасны дугаараа оруулна уу" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">И-Мэйл хаяг</label> 
+                    <input type="email" id="email" name="email" placeholder="И-Мэйл хаягаа оруулна уу">
+                </div>
+                <div class="form-group password-group">
+                    <label for="password">Нууц үг <span class="required">*</span></label>
+                    <div class="password-input-wrapper">
+                         <span class="password-icon">&#x1F512;</span> 
+                         <input type="password" id="password" name="password" placeholder="Нууц үг" required>
+                    </div>
+                   
+                </div>
+                <div class="form-group terms-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Үйлчилгээний нөхцөл зөвшөөрөх</label>
+                </div>
+                <button type="submit" class="register-btn">Бүртгүүлэх</button>
+            </form>
+            <p class="login-prompt">Хэрэв та бүртгэлтэй бол <a href="login.html" class="login-link-alt">Нэвтрэх</a>.</p>
+        </div>
+    </main>
+</body>
+</html> 
